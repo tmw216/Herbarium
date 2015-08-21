@@ -43,3 +43,4 @@ write.csv(julian$ret.yr, file = "julyr.csv")
 ## Checking dates
 date.ddmmmyy(julian$ret.jd[364])  #23 July 1960
 
+## Dates merged into == HerbFinal.csv
