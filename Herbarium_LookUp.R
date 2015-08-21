@@ -71,3 +71,5 @@ write.table(x = sanbi.flower, "sanbi.flower.txt", sep="\t")
 ## Count occurences/frequency
 san = count(sanbi.flower, "TAXNAME")
 write.table(x = san, "san.count.txt", sep="\t")
+
+## Final merged file == HerbFinal.csv
